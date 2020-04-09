@@ -15,23 +15,31 @@ export default function Navbar(){
 
             
 
-        }}>  <a href="#contact"><button className="btn info" style={{
+        }}> 
+       
+         <a href="#contact"><button className="btn info" style={{
             marginRight:"1px",
             marginTop:"6px",
              float: "right" }}>Contact</button></a>
 
-            <NavLink to="/" ><button style={{
-                marginRight:"1px",
-                marginTop:"6px",
-                float: "right" 
-               }} className="btn info">Portfolio</button></NavLink>
-            
-            <a href="#story"><button style={{
+             <a href="#story"><button style={{
                  marginRight:"1px",
                 marginTop:"6px",
              float: "right"}} className=" btn info">Story</button></a>
-            
+             
+              <a href="#cont">  <button style={{
+                marginRight:"1px",
+                marginTop:"6px",
+                float: "right" 
+               }} className="btn info">Portfolio</button></a>
+
+            <a href="#ab"><button style={{
+                 marginRight:"1px",
+                marginTop:"6px",
+             float: "right"}} className=" btn info">About</button></a>
            
+            
+            <h1 style={{color:"white"}}>Paul Fodrovics</h1>
         </nav>
     )
 }

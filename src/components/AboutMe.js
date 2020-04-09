@@ -14,10 +14,10 @@ export default function AboutMe() {
                 backgroundColor: "gray",
                 color: "white",
               
-            }} className="hero hero-md bg-primary">
-                <div className="hero-body "></div>
-                <h1>hey</h1>
-                <p>ss</p>
+            }} id="ab" className="hero hero-md bg-primary">
+                <div  className="hero-body "></div>
+                <h1 style={{textAlign:"center"}}>Freelance Web Developer based in Philadelphia, Pennsylvania .  </h1>
+                <p style={{textAlign:"center"}}> I  develop custom functional Websites for small businesses using a diverse set of skills, ranging from HTML + CSS + JavaScript to MongoDb.</p>
 
             </div>
 
@@ -94,6 +94,25 @@ export default function AboutMe() {
                         <a href="https://collab-hub.herokuapp.com/" target="_blank" style={{ margin: "5px" }} className="btn btn-primary">Deployed</a>
                         <a href="https://github.com/Shift4change/collabHub" target="_blank" style={{ marginLeft: "10px" }} className="btn btn-secondary">Repo</a>
                         <div className="card-subtitle text-gray" style={{ float: "right", marginTop: "9px" }}>  Solo Project  </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="cont"  className="column col-4 col-xs-12">
+                <div  className="card">
+                    <div className="card-image">
+                        <img src="https://via.placeholder.com/150" class="img-responsive" />
+                    </div>
+                    <div className="card-header">
+                        <div className="card-title h5">Project3</div>
+                        <div className="card-subtitle text-gray">  </div>
+                    </div>
+
+                    <div className="card-footer">
+                        <a href="" target="_blank" style={{ margin: "5px" }} className="btn btn-primary">Deployed</a>
+                        <a href="" target="_blank" style={{ marginLeft: "10px" }} className="btn btn-secondary">Repo</a>
+                        <div className="card-subtitle text-gray" style={{ float: "right", marginTop: "9px" }}> Group Project  </div>
                     </div>
 
                 </div>
