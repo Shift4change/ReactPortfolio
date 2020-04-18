@@ -5,6 +5,7 @@ import note from "./assets/note.png"
 import team from "./assets/note.png"
 import collab from "./assets/collab.jpg"
 import "./style.css"
+import solve1 from "./assets/solve1.png"
 
 
 export default function AboutMe() {
@@ -99,19 +100,19 @@ export default function AboutMe() {
                 </div>
             </div>
 
-            <div id="cont"  className="column col-4 col-xs-12">
-                <div  className="card">
+            <div id="outer"  className="column col-4 col-xs-12">
+                <div id="inner" className="card">
                     <div className="card-image">
-                        <img src="https://via.placeholder.com/150" class="img-responsive" />
+                        <img src={solve1} class="img-responsive" />
                     </div>
                     <div className="card-header">
-                        <div className="card-title h5">Project3</div>
-                        <div className="card-subtitle text-gray">  </div>
+                        <div className="card-title h5">SolveStaking</div>
+                        <div className="card-subtitle text-gray">Learn about decentralization by participating! We are bringing awareness about cryptocurrencies and offer a Staking service on the Cardano blockchain.  </div>
                     </div>
 
                     <div className="card-footer">
-                        <a href="" target="_blank" style={{ margin: "5px" }} className="btn btn-primary">Deployed</a>
-                        <a href="" target="_blank" style={{ marginLeft: "10px" }} className="btn btn-secondary">Repo</a>
+                        <a href="https://solvestaking.herokuapp.com/" target="_blank" style={{ margin: "5px" }} className="btn btn-primary">Deployed</a>
+                        <a href="https://github.com/Shift4change/honey.stake" target="_blank" style={{ marginLeft: "10px" }} className="btn btn-secondary">Repo</a>
                         <div className="card-subtitle text-gray" style={{ float: "right", marginTop: "9px" }}> Group Project  </div>
                     </div>
 
